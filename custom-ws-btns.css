@@ -1,0 +1,15 @@
+/*
+These values modify the workspace switcher buttons in the xfce4 panel
+Make sure an import for this file exists in gtk.css like:
+"@import url("custom-ws-btns.css");"
+
+*/
+
+
+#pager-4 button {
+    padding: 15px;
+}
+
+#pager-4 button:checked {
+    background: radial-gradient(rgba(0, 51, 174, 0.2), rgba(20, 75, 154, 0.4));
+}
